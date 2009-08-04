@@ -1,0 +1,18 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+	<title><%%= h(yield(:title) || "Untitled") %></title>
+	<%%= stylesheet_link_tag '<%= file_name %>' %>
+</head>
+<body id="main_body" >
+	<div id="header"><%%= h(yield(:header) || "HEADER") %></div>
+	<div id="topbg"></div>
+	<div id="container">
+		<%%= yield %>
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</div>	
+	<div id="bottombg"></div>
+	<div id="footer"><%%= h(yield(:footer) || "FOOTER") %></div>
+</body>
+</html>

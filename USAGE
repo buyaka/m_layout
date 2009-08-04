@@ -1,0 +1,10 @@
+Description:
+    Generates a layout. The layout use the all views.
+
+Usage:
+
+Examples:
+    script/generate m_layout         
+        Creates layout.
+        
+Methods:
