@@ -55,6 +55,17 @@ body
 	border-bottom: 1px dotted #999999;
 }
 
+#ldiv {
+	width:300px;
+	float:left;
+	text-align:left;
+}
+
+#rdiv {
+	width: 300px;
+	float:right;
+	text-align:right;
+}
 
 #topbg
 {
