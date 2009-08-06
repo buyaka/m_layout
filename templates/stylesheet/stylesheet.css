@@ -23,7 +23,7 @@ body
 	margin:0 auto;
 	clear:both;
 	color:#403520;
-	text-align:center;
+	text-align:left;
 	font-size: 85%;
 }
 
@@ -33,15 +33,20 @@ body
 	border-bottom: 1px dotted #999999;
 }
 
+#header h1{
+	color:#403520;
+	text-decoration: none;
+}
+
 #footer
 {
 	width:960px;
 	margin:0 auto;
 	clear:both;
 	color:#403520;
-	text-align:center;
-	/*padding-bottom: 15px;*/
+	text-align:left;
 	font-size: 85%;
+	font-weight:bold;
 }
 
 #footer a{
