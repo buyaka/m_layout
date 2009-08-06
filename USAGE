@@ -1,10 +1,17 @@
-Description:
-    Generates a layout. The layout use the all views.
+Тэмдэглэл:
+      Вэб хуудасны ерөнхий үзүүлэмж(layout) үүсгэгч.
 
-Usage:
 
-Examples:
-    script/generate m_layout         
-        Creates layout.
+Хэрэглэх заавар:
+    script/generate m_layout [контроллэрийн  нэр]
+                             [controller name]
+
+Жишээ:
+    удирдлагын нэр өгөлгүйгээр үүсгэх
+
+    script/generate m_layout
+    ингэж үүсгэсэн тохиолдолд application үзүүлэмж үүснэ
         
-Methods:
+    script/generate m_layout home
+    ингэж үүсгэсэн тохиолдолд home үзүүлэмж үүснэ
+        
